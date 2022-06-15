@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card1text {
+  color: #eb5353;
+}
+.card2text {
+  color: #f9d923;
+}
+.card3text {
+  color: #36ae7c;
+}
+.card4text {
+  color: #187498;
+}
+
+
+.bg-darker {
+  background-color: #1b1d21 !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #c4c4c4 #212529;
+}
+/* dis one is for google chorme*/
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+}
